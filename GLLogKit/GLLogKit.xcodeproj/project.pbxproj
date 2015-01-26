@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E42B6C141A762387001A1D78 /* GLLogKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C131A762387001A1D78 /* GLLogKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42B6C1A1A762387001A1D78 /* GLLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B6C0E1A762386001A1D78 /* GLLogKit.framework */; };
+		E42B6C211A762387001A1D78 /* GLLogKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C201A762387001A1D78 /* GLLogKitTests.m */; };
+		E42B6C5D1A762408001A1D78 /* GLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C5C1A762408001A1D78 /* GLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42B6C681A76245D001A1D78 /* GLLogAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C661A76245D001A1D78 /* GLLogAppender.h */; };
+		E42B6C691A76245D001A1D78 /* GLLogAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C671A76245D001A1D78 /* GLLogAppender.m */; };
+		E42B6C6C1A762474001A1D78 /* GLLogEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C6A1A762474001A1D78 /* GLLogEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42B6C6D1A762474001A1D78 /* GLLogEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C6B1A762474001A1D78 /* GLLogEvent.m */; };
+		E42B6C701A762483001A1D78 /* GLLogLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C6E1A762483001A1D78 /* GLLogLayout.h */; };
+		E42B6C711A762483001A1D78 /* GLLogLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C6F1A762483001A1D78 /* GLLogLayout.m */; };
+		E42B6C741A7624A5001A1D78 /* GLLogConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C721A7624A5001A1D78 /* GLLogConfiguration.h */; };
+		E42B6C751A7624A5001A1D78 /* GLLogConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C731A7624A5001A1D78 /* GLLogConfiguration.m */; };
+		E42B6C7C1A762512001A1D78 /* GLExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C7A1A762512001A1D78 /* GLExceptionHandler.h */; };
+		E42B6C7D1A762512001A1D78 /* GLExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C7B1A762512001A1D78 /* GLExceptionHandler.m */; };
+		E42B6C801A762637001A1D78 /* GLLoggerImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C7E1A762637001A1D78 /* GLLoggerImplementation.h */; };
+		E42B6C811A762637001A1D78 /* GLLoggerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C7F1A762637001A1D78 /* GLLoggerImplementation.m */; };
+		E42B6C841A76298F001A1D78 /* GLLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C821A76298F001A1D78 /* GLLoggerFactory.h */; };
+		E42B6C851A76298F001A1D78 /* GLLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C831A76298F001A1D78 /* GLLoggerFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E42B6C1B1A762387001A1D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42B6C051A762386001A1D78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42B6C0D1A762386001A1D78;
+			remoteInfo = GLLogKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E42B6C0E1A762386001A1D78 /* GLLogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42B6C121A762387001A1D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42B6C131A762387001A1D78 /* GLLogKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLogKit.h; sourceTree = "<group>"; };
+		E42B6C191A762387001A1D78 /* GLLogKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLLogKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42B6C1F1A762387001A1D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42B6C201A762387001A1D78 /* GLLogKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLogKitTests.m; sourceTree = "<group>"; };
+		E42B6C5C1A762408001A1D78 /* GLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogger.h; sourceTree = "<group>"; };
+		E42B6C661A76245D001A1D78 /* GLLogAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogAppender.h; sourceTree = "<group>"; };
+		E42B6C671A76245D001A1D78 /* GLLogAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLogAppender.m; sourceTree = "<group>"; };
+		E42B6C6A1A762474001A1D78 /* GLLogEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogEvent.h; sourceTree = "<group>"; };
+		E42B6C6B1A762474001A1D78 /* GLLogEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLogEvent.m; sourceTree = "<group>"; };
+		E42B6C6E1A762483001A1D78 /* GLLogLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogLayout.h; sourceTree = "<group>"; };
+		E42B6C6F1A762483001A1D78 /* GLLogLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLogLayout.m; sourceTree = "<group>"; };
+		E42B6C721A7624A5001A1D78 /* GLLogConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogConfiguration.h; sourceTree = "<group>"; };
+		E42B6C731A7624A5001A1D78 /* GLLogConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLogConfiguration.m; sourceTree = "<group>"; };
+		E42B6C7A1A762512001A1D78 /* GLExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLExceptionHandler.h; sourceTree = "<group>"; };
+		E42B6C7B1A762512001A1D78 /* GLExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLExceptionHandler.m; sourceTree = "<group>"; };
+		E42B6C7E1A762637001A1D78 /* GLLoggerImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLoggerImplementation.h; sourceTree = "<group>"; };
+		E42B6C7F1A762637001A1D78 /* GLLoggerImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLoggerImplementation.m; sourceTree = "<group>"; };
+		E42B6C821A76298F001A1D78 /* GLLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLoggerFactory.h; sourceTree = "<group>"; };
+		E42B6C831A76298F001A1D78 /* GLLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLoggerFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E42B6C0A1A762386001A1D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42B6C161A762387001A1D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42B6C1A1A762387001A1D78 /* GLLogKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E42B6C041A762386001A1D78 = {
+			isa = PBXGroup;
+			children = (
+				E42B6C101A762386001A1D78 /* GLLogKit */,
+				E42B6C1D1A762387001A1D78 /* GLLogKitTests */,
+				E42B6C0F1A762386001A1D78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E42B6C0F1A762386001A1D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42B6C0E1A762386001A1D78 /* GLLogKit.framework */,
+				E42B6C191A762387001A1D78 /* GLLogKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E42B6C101A762386001A1D78 /* GLLogKit */ = {
+			isa = PBXGroup;
+			children = (
+				E42B6C131A762387001A1D78 /* GLLogKit.h */,
+				E42B6C5C1A762408001A1D78 /* GLLogger.h */,
+				E42B6C7E1A762637001A1D78 /* GLLoggerImplementation.h */,
+				E42B6C7F1A762637001A1D78 /* GLLoggerImplementation.m */,
+				E42B6C6A1A762474001A1D78 /* GLLogEvent.h */,
+				E42B6C6B1A762474001A1D78 /* GLLogEvent.m */,
+				E42B6C6E1A762483001A1D78 /* GLLogLayout.h */,
+				E42B6C6F1A762483001A1D78 /* GLLogLayout.m */,
+				E42B6C661A76245D001A1D78 /* GLLogAppender.h */,
+				E42B6C671A76245D001A1D78 /* GLLogAppender.m */,
+				E42B6C721A7624A5001A1D78 /* GLLogConfiguration.h */,
+				E42B6C731A7624A5001A1D78 /* GLLogConfiguration.m */,
+				E42B6C821A76298F001A1D78 /* GLLoggerFactory.h */,
+				E42B6C831A76298F001A1D78 /* GLLoggerFactory.m */,
+				E42B6C7A1A762512001A1D78 /* GLExceptionHandler.h */,
+				E42B6C7B1A762512001A1D78 /* GLExceptionHandler.m */,
+				E42B6C111A762386001A1D78 /* Supporting Files */,
+			);
+			path = GLLogKit;
+			sourceTree = "<group>";
+		};
+		E42B6C111A762386001A1D78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42B6C121A762387001A1D78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E42B6C1D1A762387001A1D78 /* GLLogKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E42B6C201A762387001A1D78 /* GLLogKitTests.m */,
+				E42B6C1E1A762387001A1D78 /* Supporting Files */,
+			);
+			path = GLLogKitTests;
+			sourceTree = "<group>";
+		};
+		E42B6C1E1A762387001A1D78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42B6C1F1A762387001A1D78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E42B6C0B1A762386001A1D78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42B6C681A76245D001A1D78 /* GLLogAppender.h in Headers */,
+				E42B6C7C1A762512001A1D78 /* GLExceptionHandler.h in Headers */,
+				E42B6C741A7624A5001A1D78 /* GLLogConfiguration.h in Headers */,
+				E42B6C6C1A762474001A1D78 /* GLLogEvent.h in Headers */,
+				E42B6C801A762637001A1D78 /* GLLoggerImplementation.h in Headers */,
+				E42B6C141A762387001A1D78 /* GLLogKit.h in Headers */,
+				E42B6C701A762483001A1D78 /* GLLogLayout.h in Headers */,
+				E42B6C5D1A762408001A1D78 /* GLLogger.h in Headers */,
+				E42B6C841A76298F001A1D78 /* GLLoggerFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E42B6C0D1A762386001A1D78 /* GLLogKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42B6C241A762387001A1D78 /* Build configuration list for PBXNativeTarget "GLLogKit" */;
+			buildPhases = (
+				E42B6C091A762386001A1D78 /* Sources */,
+				E42B6C0A1A762386001A1D78 /* Frameworks */,
+				E42B6C0B1A762386001A1D78 /* Headers */,
+				E42B6C0C1A762386001A1D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLLogKit;
+			productName = GLLogKit;
+			productReference = E42B6C0E1A762386001A1D78 /* GLLogKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E42B6C181A762387001A1D78 /* GLLogKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42B6C271A762387001A1D78 /* Build configuration list for PBXNativeTarget "GLLogKitTests" */;
+			buildPhases = (
+				E42B6C151A762387001A1D78 /* Sources */,
+				E42B6C161A762387001A1D78 /* Frameworks */,
+				E42B6C171A762387001A1D78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42B6C1C1A762387001A1D78 /* PBXTargetDependency */,
+			);
+			name = GLLogKitTests;
+			productName = GLLogKitTests;
+			productReference = E42B6C191A762387001A1D78 /* GLLogKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E42B6C051A762386001A1D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Batrixmas;
+				TargetAttributes = {
+					E42B6C0D1A762386001A1D78 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E42B6C181A762387001A1D78 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = E42B6C081A762386001A1D78 /* Build configuration list for PBXProject "GLLogKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E42B6C041A762386001A1D78;
+			productRefGroup = E42B6C0F1A762386001A1D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E42B6C0D1A762386001A1D78 /* GLLogKit */,
+				E42B6C181A762387001A1D78 /* GLLogKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E42B6C0C1A762386001A1D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42B6C171A762387001A1D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E42B6C091A762386001A1D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42B6C751A7624A5001A1D78 /* GLLogConfiguration.m in Sources */,
+				E42B6C711A762483001A1D78 /* GLLogLayout.m in Sources */,
+				E42B6C6D1A762474001A1D78 /* GLLogEvent.m in Sources */,
+				E42B6C691A76245D001A1D78 /* GLLogAppender.m in Sources */,
+				E42B6C811A762637001A1D78 /* GLLoggerImplementation.m in Sources */,
+				E42B6C851A76298F001A1D78 /* GLLoggerFactory.m in Sources */,
+				E42B6C7D1A762512001A1D78 /* GLExceptionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42B6C151A762387001A1D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42B6C211A762387001A1D78 /* GLLogKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42B6C1C1A762387001A1D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42B6C0D1A762386001A1D78 /* GLLogKit */;
+			targetProxy = E42B6C1B1A762387001A1D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E42B6C221A762387001A1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E42B6C231A762387001A1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E42B6C251A762387001A1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GLLogKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E42B6C261A762387001A1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GLLogKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E42B6C281A762387001A1D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLLogKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E42B6C291A762387001A1D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLLogKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E42B6C081A762386001A1D78 /* Build configuration list for PBXProject "GLLogKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42B6C221A762387001A1D78 /* Debug */,
+				E42B6C231A762387001A1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42B6C241A762387001A1D78 /* Build configuration list for PBXNativeTarget "GLLogKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42B6C251A762387001A1D78 /* Debug */,
+				E42B6C261A762387001A1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E42B6C271A762387001A1D78 /* Build configuration list for PBXNativeTarget "GLLogKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42B6C281A762387001A1D78 /* Debug */,
+				E42B6C291A762387001A1D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E42B6C051A762386001A1D78 /* Project object */;
+}
