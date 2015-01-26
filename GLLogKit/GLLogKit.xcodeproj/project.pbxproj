@@ -25,6 +25,8 @@
 		E42B6C811A762637001A1D78 /* GLLoggerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C7F1A762637001A1D78 /* GLLoggerImplementation.m */; };
 		E42B6C841A76298F001A1D78 /* GLLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C821A76298F001A1D78 /* GLLoggerFactory.h */; };
 		E42B6C851A76298F001A1D78 /* GLLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C831A76298F001A1D78 /* GLLoggerFactory.m */; };
+		E42B6C881A762EEB001A1D78 /* GLLogPatternParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B6C861A762EEB001A1D78 /* GLLogPatternParser.h */; };
+		E42B6C891A762EEB001A1D78 /* GLLogPatternParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B6C871A762EEB001A1D78 /* GLLogPatternParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		E42B6C7F1A762637001A1D78 /* GLLoggerImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLoggerImplementation.m; sourceTree = "<group>"; };
 		E42B6C821A76298F001A1D78 /* GLLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLoggerFactory.h; sourceTree = "<group>"; };
 		E42B6C831A76298F001A1D78 /* GLLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLoggerFactory.m; sourceTree = "<group>"; };
+		E42B6C861A762EEB001A1D78 /* GLLogPatternParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLogPatternParser.h; sourceTree = "<group>"; };
+		E42B6C871A762EEB001A1D78 /* GLLogPatternParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLogPatternParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				E42B6C7A1A762512001A1D78 /* GLExceptionHandler.h */,
 				E42B6C7B1A762512001A1D78 /* GLExceptionHandler.m */,
 				E42B6C111A762386001A1D78 /* Supporting Files */,
+				E42B6C861A762EEB001A1D78 /* GLLogPatternParser.h */,
+				E42B6C871A762EEB001A1D78 /* GLLogPatternParser.m */,
 			);
 			path = GLLogKit;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 				E42B6C6C1A762474001A1D78 /* GLLogEvent.h in Headers */,
 				E42B6C801A762637001A1D78 /* GLLoggerImplementation.h in Headers */,
 				E42B6C141A762387001A1D78 /* GLLogKit.h in Headers */,
+				E42B6C881A762EEB001A1D78 /* GLLogPatternParser.h in Headers */,
 				E42B6C701A762483001A1D78 /* GLLogLayout.h in Headers */,
 				E42B6C5D1A762408001A1D78 /* GLLogger.h in Headers */,
 				E42B6C841A76298F001A1D78 /* GLLoggerFactory.h in Headers */,
@@ -269,6 +276,7 @@
 				E42B6C811A762637001A1D78 /* GLLoggerImplementation.m in Sources */,
 				E42B6C851A76298F001A1D78 /* GLLoggerFactory.m in Sources */,
 				E42B6C7D1A762512001A1D78 /* GLExceptionHandler.m in Sources */,
+				E42B6C891A762EEB001A1D78 /* GLLogPatternParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
